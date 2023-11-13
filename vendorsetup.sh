@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_A3A_8_4G-user
-add_lunch_combo omni_A3A_8_4G-userdebug
-add_lunch_combo omni_A3A_8_4G-eng
+add_lunch_combo twrp_A3A_8_4G-user
+add_lunch_combo twrp_A3A_8_4G-userdebug
+add_lunch_combo twrp_A3A_8_4G-eng
