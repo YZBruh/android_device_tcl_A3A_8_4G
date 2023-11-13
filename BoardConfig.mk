@@ -66,13 +66,6 @@ TARGET_BOARD_PLATFORM := mt6739
 # Hardware
 BOARD_USES_MTK_HARDWARE := true
 
-# Recovery modules
-TARGET_RECOVERY_DEVICE_MODULES += \
-  libpuresoftkeymasterdevice
-
-RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so
-
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
 
