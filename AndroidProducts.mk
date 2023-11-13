@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_A3A_8_4G.mk
+    $(LOCAL_DIR)/twrp_A3A_8_4G.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_A3A_8_4G-user \
-    omni_A3A_8_4G-userdebug \
-    omni_A3A_8_4G-eng
+    twrp_A3A_8_4G-user \
+    twrp_A3A_8_4G-userdebug \
+    twrp_A3A_8_4G-eng
