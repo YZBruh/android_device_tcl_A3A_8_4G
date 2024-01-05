@@ -65,6 +65,9 @@ BOARD_USES_MTK_HARDWARE := true
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
 
+# system-as-root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
