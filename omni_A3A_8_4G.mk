@@ -9,13 +9,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from A3A_8_4G device
 $(call inherit-product, device/tcl/A3A_8_4G/device.mk)
 
 PRODUCT_DEVICE := A3A_8_4G
-PRODUCT_NAME := twrp_A3A_8_4G
+PRODUCT_NAME := omni_A3A_8_4G
 PRODUCT_BRAND := TCL
 PRODUCT_MODEL := 9027X
 PRODUCT_MANUFACTURER := tcl
